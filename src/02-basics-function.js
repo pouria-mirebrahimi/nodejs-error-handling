@@ -52,6 +52,9 @@ const top_level_func = () => {
     const _msg = 'The getUserByID function throws an error!'
     console.log(_msg)
     console.error(`Error: ${err.message}`)
+    // ! you can print anythings you need
+    // console.log(err.message)
+    // console.log(err.stack)
   } finally {
     const _msg = 'Do something at the final stage of your procedure...'
     console.log(_msg)
