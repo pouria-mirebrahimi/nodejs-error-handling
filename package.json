@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-error-handling",
+  "version": "1.0.0",
+  "description": "This is repo for learners who want to use the best use cases for handling the errors, exceptions, rejections in Node.js",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pouria-mirebrahimi/nodejs-error-handling.git"
+  },
+  "keywords": [],
+  "author": "Pouria Mirebrahimi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pouria-mirebrahimi/nodejs-error-handling/issues"
+  },
+  "homepage": "https://github.com/pouria-mirebrahimi/nodejs-error-handling#readme",
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}
