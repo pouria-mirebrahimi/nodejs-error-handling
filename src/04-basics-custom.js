@@ -5,10 +5,10 @@ const userNotFound = require('../lib/errors/userNotFound')
 
 /**
  * @name      getUserByID
- * @desc      Find a user based on a unqiue ID
+ * @desc      Find a user based on its unqiue ID
  * 
- * @param     {string}    id    : user unique ID 
- * @returns   {object}    user  : user if found else null 
+ * @param     {string}    id      user unique ID 
+ * @returns   {object}    user    user if found else null 
  */
 const getUserByID = (id) => {
   user = null
@@ -21,7 +21,7 @@ const getUserByID = (id) => {
   }
 }
 
-// script to find a user with handline custom errors
+// script to find a user with handling custom errors
 const uid = uuid.v1()
 try {
   getUserByID(uid)
